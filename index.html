@@ -2,12 +2,10 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
-.mac-os-11 { --title-bar-height: 28px; }
+<title>Aesthetic3D@I3D2026</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-h1, h2, h3, h4, h5 { white-space: pre-wrap; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
@@ -23,6 +21,8 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
@@ -30,8 +30,8 @@ img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
 button, input, select, textarea { color: inherit; font: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
-#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; position: relative; }
-#write svg h1, #write svg h2, #write svg h3, #write svg h4, #write svg h5, #write svg h6, #write svg p { position: static; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
 p { line-height: inherit; }
 h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
 p { orphans: 4; }
@@ -50,7 +50,7 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-thead, tr { break-inside: avoid; break-after: auto; }
+tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
@@ -66,13 +66,12 @@ div.hr:focus { cursor: none; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
 .md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
-.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
-svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
 .md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
@@ -87,14 +86,11 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
-  #write > p:nth-child(1) { margin-top: 0px; }
-  .typora-export-show-outline .typora-export-sidebar { display: none; }
-  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
@@ -132,14 +128,22 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
-.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
 kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
-.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
 code { text-align: left; vertical-align: initial; }
 a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
@@ -150,74 +154,14 @@ iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
-.md-expand mark .md-meta { opacity: 0.3 !important; }
-mark .md-meta { color: rgb(0, 0, 0); }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 @media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
 .md-diagram-panel .start-state { fill: var(--node-fill); }
 .md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
-.md-fences.md-fences-math { font-size: 1em; }
-.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
-.md-fences-advanced:not(.md-focus) { background: inherit; }
-.mermaid-svg { margin: auto; }
-.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
-.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
-.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
-.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) {
-  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
-}
-@media screen and (max-width: 800px) {
-  .typora-export-sidebar { display: none; }
-}
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
-.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
-.outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
-.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ""; }
-.outline-h1 > .outline-item { padding-left: 0px; }
-.outline-h2 > .outline-item { padding-left: 1em; }
-.outline-h3 > .outline-item { padding-left: 2em; }
-.outline-h4 > .outline-item { padding-left: 3em; }
-.outline-h5 > .outline-item { padding-left: 4em; }
-.outline-h6 > .outline-item { padding-left: 5em; }
-.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
-.outline-label:hover { text-decoration: underline; }
-.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
-.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
-.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
-.outline-children { display: none; }
-.info-panel-tab-wrapper { display: none; }
-.outline-item-open > .outline-children { display: block; }
-.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
-.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
-.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
-.typora-export-collapse-outline .outline-children { display: none; }
-.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
-.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
-.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
-.md-inline-math-container mjx-container { zoom: 0.95; }
-mjx-container { break-inside: avoid; }
-.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
-.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
-.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
-.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
-.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
-.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left: 0.25em solid rgb(0, 0, 0); }
-.md-alert-text-note { color: rgb(9, 105, 218); }
-.md-alert-text-important { color: rgb(130, 80, 223); }
-.md-alert-text-warning { color: rgb(154, 103, 0); }
-.md-alert-text-tip { color: rgb(31, 136, 61); }
-.md-alert-text-caution { color: rgb(207, 34, 46); }
-.md-alert-text { font-size: 0.9rem; font-weight: 700; }
-.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
-.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
 
 
 .CodeMirror { height: auto; }
@@ -264,12 +208,12 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
 .CodeMirror { position: relative; overflow: hidden; }
 .CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
 .CodeMirror-sizer { position: relative; }
-.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
 .CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
-.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
 .CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
 .CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
-.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
 .CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
 .CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
 .CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
@@ -279,7 +223,7 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
 .CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
 .CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
 .CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
-.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
 .CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
 .CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
 .CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
@@ -288,14 +232,6 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
 .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 .CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
 .cm-searching { background: rgba(255, 255, 0, 0.4); }
-span.cm-underlined { text-decoration: underline; }
-span.cm-strikethrough { text-decoration: line-through; }
-.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
-.cm-tw-deleted { text-decoration: line-through; }
-.cm-tw-header5 { font-weight: 700; }
-.cm-tw-listitem:first-child { padding-left: 10px; }
-.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
-.cm-tw-underline { text-decoration: underline; }
 @media print {
   .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 }
@@ -306,7 +242,7 @@ span.cm-strikethrough { text-decoration: line-through; }
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
 /* open-sans-regular - latin-ext_latin */
   /* open-sans-italic - latin-ext_latin */
@@ -314,17 +250,16 @@ span.cm-strikethrough { text-decoration: line-through; }
     /* open-sans-700italic - latin-ext_latin */
   html {
     font-size: 16px;
-    -webkit-font-smoothing: antialiased;
 }
 
 body {
-    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.6;
 }
 
 #write {
-    max-width: 80%;
+    max-width: 860px;
   	margin: 0 auto;
   	padding: 30px;
     padding-bottom: 100px;
@@ -357,9 +292,9 @@ h4,
 h5,
 h6 {
     position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: normal; /*modified by deng  bold->normal*/
     line-height: 1.4;
     cursor: text;
 }
@@ -398,7 +333,7 @@ h6 code {
 h1 {
     font-size: 2.25em;
     line-height: 1.2;
-    border-bottom: 1px  #eee;
+    border-bottom: 1px solid #eee;
 }
 h2 {
     font-size: 1.75em;
@@ -487,7 +422,7 @@ table {
     word-break: initial;
 }
 table tr {
-    border: 1px solid #dfe2e5;
+    border-top: 1px solid #dfe2e5;
     margin: 0;
     padding: 0;
 }
@@ -557,8 +492,11 @@ code {
     html {
         font-size: 13px;
     }
+    table,
     pre {
         page-break-inside: avoid;
+    }
+    pre {
         word-wrap: break-word;
     }
 }
@@ -654,17 +592,13 @@ header, .context-menu, .megamenu-content, footer{
     background-color: var(--side-bar-bg-color);
 }
 
-.mac-os #write{
-    caret-color: AccentColor;
-}
-
 .md-lang {
     color: #b4654d;
 }
 
-/*.html-for-mac {
+.html-for-mac .context-menu {
     --item-hover-bg-color: #E6F0FE;
-}*/
+}
 
 #md-notification .btn {
     border: 0;
@@ -672,7 +606,6 @@ header, .context-menu, .megamenu-content, footer{
 
 .dropdown-menu .divider {
     border-color: #e5e5e5;
-    opacity: 0.4;
 }
 
 .ty-preferences .window-content {
@@ -682,11 +615,6 @@ header, .context-menu, .megamenu-content, footer{
 .ty-preferences .nav-group-item.active {
     color: white;
     background: #999;
-}
-
-.menu-item-container a.menu-style-btn {
-    background-color: #f5f8fa;
-    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
 
 /* ===============================added by deng============================================*/
@@ -711,14 +639,14 @@ h2,h4 {
     margin-top: 32px !important;    /* 上方留出较大空间 */
     margin-bottom: 32px !important; /* 下方留出较大空间 */
 }
-
+/* 标题上下的边缘距离*/
 h6 {
-    margin-top: 10px !important;    /* 上方留出较大空间 */
-    margin-bottom: 10px !important; /* 下方留出较大空间 */
+    margin-top: 13px !important;    /* 上方留出较大空间 */
+    margin-bottom: 13px !important; /* 下方留出较大空间 */
 }
-/* h1,h2,h3,h4,h5 {
-    font-weight: bolder;
-} */
+h2,h3,h4,h5 {
+    font-weight: normal;
+}
 
 h6 {
     font-family: Arial,'Open Sans', sans-serif;
@@ -727,19 +655,31 @@ h6 {
 
 /* normal writing area */
 #write {
-  max-width: 65%;   /* or 1000px / 1200px etc. */
+  max-width: 60%;   /* or 1000px / 1200px etc. */
   margin: 0 auto;
 }
 
 /* 调细所有粗体 */
 strong, b {
-  font-weight: 520;  /* 可改为 450~600 之间微调 */
+  font-weight: 550;  /* 可改为 450~600 之间微调 */
 }
 
-
-</style><title>Aesthetic3D</title>
+ :root {--mermaid-font-zoom:1.5em ;} 
+</style>
 </head>
-<body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='aesthetic3d-incorporating-shape-aesthetic-measures-into-3d-modeling-interfaces'><em><strong><span>Aesthetic3D</span></strong></em><span>: Incorporating Shape Aesthetic Measures into 3D Modeling Interfaces</span></h1><h6 id='deng-yu1-jianing-guo2--hui-ye3-pengjie-ren2-hongbo-fu4--manfred-lau5'><a href='https://dengyuhk.github.io/'><span>Deng Yu</span></a><sup><span>1</span></sup>&nbsp;&nbsp;<span> </span><a href=''><span>Jianing Guo</span></a><sup><span>2</span></sup><span> </span>&nbsp;&nbsp;<span> </span><a href='https://huiye19.github.io/'><span>Hui Ye</span></a><sup><span>3</span></sup>&nbsp;&nbsp;<span> </span><a href=''><span>Pengjie Ren</span></a><sup><span>2</span><span>*</span></sup>&nbsp;&nbsp;<span> </span><a href='https://hongbofu.people.ust.hk/'><span>Hongbo Fu</span></a><sup><span>4</span><span>*</span></sup><span> </span>&nbsp;&nbsp;<span> </span><a href='https://sites.google.com/site/manfredlau/'><span>Manfred Lau</span></a><sup><span>5*</span></sup></h6><h6 id='1-school-of-artificial-intelligence-shandong-university'><span>1 School of Artificial Intelligence, Shandong University</span></h6><h6 id='2-school-of-computer-science-and-technology-shandong-university'><span>2 School of Computer Science and Technology, Shandong University</span></h6><h6 id='3-department-of-interactive-media-hong-kong-baptist-university'><span>3 Department of Interactive Media, Hong Kong Baptist University</span></h6><h6 id='4-division-of-arts-and-machine-creativity-hkust'><span>4 Division of Arts and Machine Creativity, HKUST</span></h6><h6 id='5-department-of-computer-science-lakehead-university'><span>5 Department of Computer Science, Lakehead University</span></h6><h6 id='-corresponding-author'><span>* Corresponding author</span></h6><h6 id='accepted-by-acm-siggraph-i3d-2026'><span>Accepted by </span><a href='https://i3dsymposium.org/2026/'><span>ACM SIGGRAPH I3D 2026</span></a></h6><h6 id='paper-coming-soon--dataset--code-coming-soon'><a href=''><span>[Paper] (Coming soon)</span></a><span> </span>&nbsp;&nbsp;&nbsp;&nbsp;<span> </span><a href=''><span>[Dataset &amp; Code] (Coming soon)</span></a></h6><p><img src="img/teaser.png" alt="teaser" style="zoom: 27%;" /></p><p><strong><span>Fig 1:</span></strong><span> Progression of shape beautification with our </span><em><span>Aesthetic3D</span></em><span>. Given an input shape (a) or (b), </span><em><span>Aesthetic3D</span></em><span> can compute aesthetic scores for them at real-time speed, and provide a suite of aesthetics-driven editing tools (see example tools under each arrow), letting users effectively adjust 3D shapes based on the computed scores until the desired aesthetic effects are achieved.</span></p><h2 id='abstract'><strong><span>Abstract</span></strong></h2><p><span>3D Aesthetics is significant in digital design, shaping how users experience real-time 3D content in games, VR, and product design. However, creating aesthetically pleasing shapes remains challenging due to diverse subjective standards and the lack of tools that support aesthetics-driven editing. Users often rely on intuition without explicit guidance on visual appeal, making aesthetics refinement slow, inconsistent, and cognitively demanding, particularly in fast-paced, iterative workflows. To address this challenge, we conducted in-depth interviews with design experts to identify challenges in aesthetics-oriented modeling workflows. Based on the findings, we developed </span><em><span>Aesthetic3D</span></em><span>, a 3D modeling interface that provides real-time aesthetics scores learned from human perceptual data. Furthermore, </span><em><span>Aesthetic3D</span></em><span> seamlessly integrates the learned aesthetics measures into intuitive editing operations, enabling aesthetics-driven exploration and refinement of shape geometry. We evaluated </span><em><span>Aesthetic3D</span></em><span> through an ablation study, an open-ended study, and three generalization evaluations. Comprehensive experiments show that with </span><em><span>Aesthetic3D</span></em><span>, users can easily and effectively enhance the aesthetics appeal of 3D shapes.</span></p><h2 id='3d-aesthetic-moldeling-walkthrough'><strong><span>3D Aesthetic Moldeling Walkthrough</span></strong></h2><p><img src="img/modeling_walkthrough.png" alt="walkthorugh" style="zoom:27%;" /></p><p><strong><span>Fig. 2:</span></strong><span> Modeling walk-through of Aesthetic3D (a-d) and current design (e-f). During modeling (a), aesthetic scoring module (b) and aesthetics-driven editing tools (c), make aesthetic enhancement perceptible, measurable, editable, and iterative (d). The user (e) can easily adjust the aesthetic appeal of a 3D object by scaling the table surface with a stylus pen on our UI. (f) shows the screenshot of a designed shape in editing mode..</span></p><h2 id='neural-aesthetic-scoring'><strong><span>Neural Aesthetic Scoring</span></strong></h2><p><img src="img\neural_aesthetics_module.png" alt="neural_aesthetics_module" style="zoom:33%;" /></p><p><span>                               </span><strong><span>Fig. 3:</span></strong><span> The details of the neural aesthetic measurement model for our </span><em><span>Aesthetic3D</span></em><span>.</span></p><h2 id='aesthetics-driven-editing-tools'><strong><span>Aesthetics-driven Editing Tools</span></strong></h2><p><img src="img\addons_tools.png" alt="addons_tools" style="zoom: 10%;" /></p><p><strong><span>Fig. 4:</span></strong><span>  Aesthetics-driven editing tools in </span><em><span>Aesthetic3D</span></em><span> support the following operations: (a) surface convexity and concavity adjustment, (b) region thickness adjustment, (c) region moving, (d-e) face subdivision or merge, (f ) planar uniform scaling, (g) vertex dragging, (h) line dragging, (i) face dragging, and (j) part transplant.</span></p><h2 id='without-vs-with-our-aesthetic3d'><strong><span>Without </span><em><span>vs</span></em><span>. with our </span><em><span>Aesthetic3D</span></em></strong></h2><p><img src="img/with_without_aesthetic3D.png" alt="segmentation_transfer" style="zoom: 18%;" /></p><p><strong><span>Fig. 5:</span></strong><span>  3D shape beautification w/o </span><em><span>vs.</span></em><span> w/. our aesthetics scoring. Given input shapes (blue), we display the ablated results of both without (yellow) and with (green) the aesthetic scoring asides.</span></p><h2 id='freely-3d-beautification-using-aesthetic3d'><strong><span>Freely 3D beautification using </span><em><span>Aesthetic3D</span></em></strong></h2><p><img src="img\beautification_progress.png" referrerpolicy="no-referrer" alt="beautification_progress"></p><p><span>                                                     </span><strong><span>Fig. 6:</span></strong><span> Four figures show the results of the participants’ explorations.</span></p><h2 id='applications'><strong><span>Applications</span></strong></h2><h4 id='--cross-dataset-beautification'><span>- </span><strong><span>Cross-dataset beautification</span></strong></h4><p><img src="img\corss_dataset.png" alt="corss_dataset" style="zoom:10%;" /></p><p><strong><span>Fig. 7:</span></strong><span> Cross-dataset validation (</span><em><span>ShapeNet</span></em><span>→</span><em><span>ModelNet</span></em><span>). Each pair shows the shapes before and after beautification with </span><em><span>Aesthetic3D</span></em><span>.</span></p><h4 id='--cross-category-beautification'><span>- </span><strong><span>Cross-category beautification</span></strong></h4><p><img src="img\cross_category.png" alt="cross_category" style="zoom:13%;" /></p><p><strong><span>Fig. 8:</span></strong><span>  Cross-category validation. Each pair shows the shapes before and after beautification with </span><em><span>Aesthetic3D</span></em><span>.</span></p><h4 id='--aesthetic-tastes-on-artworks'><span>- </span><strong><span>Aesthetic tastes on Artworks</span></strong></h4><p><img src="img\violin.png" alt="violin" style="zoom:15%;" /></p><p><strong><span>Fig. 9:</span></strong><span>  </span><em><span>Aesthetic3D</span></em><span> applied to artworks that already conform to common aesthetic preferences:  violin, Apple logo, and Venus statue, shown before and after beautification.</span></p><h2 id='citation'><strong><span>Citation</span></strong></h2><pre class="md-fences md-end-block md-fences-with-lineno ty-contain-cm modeLoaded" spellcheck="false" lang="tex"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="tex"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 9.51562px; left: 36px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 28px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -28px; width: 28px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -28px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 19px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Coming soon</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 23px;"></div><div class="CodeMirror-gutters" style="height: 23px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 27px;"></div></div></div></div></pre><p>&nbsp;</p><p><span>                    </span><img src="img/SDU.png" alt="SCM_Logo" style="zoom:50%;" /><span>             </span><img src="img\HKBU.png" alt="HKBU" style="zoom:70%;" /><span>      </span></p><p><span>                        </span><img src="img/hkust-logo.jpg" alt="hkust-logo" style="zoom:20%;" /><span> </span><img src="img\LU.png" alt="LU" style="zoom:55%;" /><span>                 </span></p></div></div>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><h1><a name="aesthetic3d-incorporating-shape-aesthetic-measures-into-3d-modeling-interfaces" class="md-header-anchor"></a><strong><em><span>Aesthetic3D</span></em></strong><span>: Incorporating Shape Aesthetic Measures into 3D Modeling Interfaces</span></h1><h6><a name="deng-yuhttpsdengyuhkgithubiosup1supnbspnbsp-jianing-guosup2sup-nbspnbsp-hui-yehttpshuiye19githubiosup3supnbspnbsp-pengjie-rensup2supnbspnbsp-hongbo-fuhttpshongbofupeopleusthksup4sup-nbspnbsp-manfred-lauhttpssitesgooglecomsitemanfredlausup5sup" class="md-header-anchor"></a><a href='https://dengyuhk.github.io/'><strong><span>Deng Yu</span></strong></a><sup><strong><span>1</span></strong></sup>&nbsp;&nbsp;<span> </span><a href=''><strong><span>Jianing Guo</span></strong></a><sup><strong><span>2</span></strong></sup><span> </span>&nbsp;&nbsp;<span> </span><a href='https://huiye19.github.io/'><strong><span>Hui Ye</span></strong></a><sup><strong><span>3</span></strong></sup>&nbsp;&nbsp;<span> </span><a href=''><strong><span>Pengjie Ren</span></strong></a><sup><strong><span>2*</span></strong></sup>&nbsp;&nbsp;<span> </span><a href='https://hongbofu.people.ust.hk/'><strong><span>Hongbo Fu</span></strong></a><sup><strong><span>4*</span></strong></sup><span> </span>&nbsp;&nbsp;<span> </span><a href='https://sites.google.com/site/manfredlau/'><strong><span>Manfred Lau</span></strong></a><sup><strong><span>5*</span></strong></sup></h6><h6><a name="1-school-of-artificial-intelligence-shandong-university" class="md-header-anchor"></a><span>1 School of Artificial Intelligence, Shandong University</span></h6><h6><a name="2-school-of-computer-science-and-technology-shandong-university" class="md-header-anchor"></a><span>2 School of Computer Science and Technology, Shandong University</span></h6><h6><a name="3-department-of-interactive-media-hong-kong-baptist-university" class="md-header-anchor"></a><span>3 Department of Interactive Media, Hong Kong Baptist University</span></h6><h6><a name="4-division-of-arts-and-machine-creativity-hkust" class="md-header-anchor"></a><span>4 Division of Arts and Machine Creativity, HKUST</span></h6><h6><a name="5-department-of-computer-science-lakehead-university" class="md-header-anchor"></a><span>5 Department of Computer Science, Lakehead University</span></h6><h6><a name="-corresponding-author" class="md-header-anchor"></a><span>* Corresponding author</span></h6><h6><a name="accepted-by-acm-siggraph-i3d-2026httpsi3dsymposiumorg2026" class="md-header-anchor"></a><span>Accepted by </span><a href='https://i3dsymposium.org/2026/'><span>ACM SIGGRAPH I3D 2026</span></a></h6><h6><a name="paper-coming-soon-nbspnbspnbspnbsp-dataset--code-coming-soon" class="md-header-anchor"></a><a href=''><span>[Paper] (Coming soon)</span></a><span> </span>&nbsp;&nbsp;&nbsp;&nbsp;<span> </span><a href=''><span>[Dataset &amp; Code] (Coming soon)</span></a></h6><p><img src="img/teaser.png" alt="teaser" style="zoom: 34%;" /></p><h6><a name="fig-1-progression-of-shape-beautification-with-our-aesthetic3d-given-an-input-shape-a-or-b-aesthetic3d-can-compute-aesthetic-scores-for-them-at-real-time-speed-and-provide-a-suite-of-aesthetics-driven-editing-tools-see-example-tools-under-each-arrow-letting-users-effectively-adjust-3d-shapes-based-on-the-computed-scores-until-the-desired-aesthetic-effects-are-achieved" class="md-header-anchor"></a><strong><span>Fig 1:</span></strong><span> Progression of shape beautification with our </span><em><span>Aesthetic3D</span></em><span>. Given an input shape (a) or (b), </span><em><span>Aesthetic3D</span></em><span> can compute aesthetic scores for them at real-time speed, and provide a suite of aesthetics-driven editing tools (see example tools under each arrow), letting users effectively adjust 3D shapes based on the computed scores until the desired aesthetic effects are achieved.</span></h6><h2><a name="abstract" class="md-header-anchor"></a><strong><span>Abstract</span></strong></h2><p><span>3D Aesthetics is significant in digital design, shaping how users experience real-time 3D content in games, VR, and product design. However, creating aesthetically pleasing shapes remains challenging due to diverse subjective standards and the lack of tools that support aesthetics-driven editing. Users often rely on intuition without explicit guidance on visual appeal, making aesthetics refinement slow, inconsistent, and cognitively demanding, particularly in fast-paced, iterative workflows. To address this challenge, we conducted in-depth interviews with design experts to identify challenges in aesthetics-oriented modeling workflows. Based on the findings, we developed </span><em><span>Aesthetic3D</span></em><span>, a 3D modeling interface that provides real-time aesthetics scores learned from human perceptual data. Furthermore, </span><em><span>Aesthetic3D</span></em><span> seamlessly integrates the learned aesthetics measures into intuitive editing operations, enabling aesthetics-driven exploration and refinement of shape geometry. We evaluated </span><em><span>Aesthetic3D</span></em><span> through an ablation study, an open-ended study, and three generalization evaluations. Comprehensive experiments show that with </span><em><span>Aesthetic3D</span></em><span>, users can easily and effectively enhance the aesthetics appeal of 3D shapes.</span></p><h2><a name="3d-aesthetic-moldeling-walkthrough" class="md-header-anchor"></a><strong><span>3D Aesthetic Moldeling Walkthrough</span></strong></h2><p><img src="img/modeling_walkthrough.png" alt="walkthorugh" style="zoom:34%;" /></p><h6><a name="fig-2-modeling-walk-through-of-aesthetic3d-a-d-and-current-design-e-f-during-modeling-a-aesthetic-scoring-module-b-and-aesthetics-driven-editing-tools-c-make-aesthetic-enhancement-perceptible-measurable-editable-and-iterative-d-the-user-e-can-easily-adjust-the-aesthetic-appeal-of-a-3d-object-by-scaling-the-table-surface-with-a-stylus-pen-on-our-ui-f-shows-the-screenshot-of-a-designed-shape-in-editing-mode" class="md-header-anchor"></a><strong><span>Fig. 2:</span></strong><span> Modeling walk-through of Aesthetic3D (a-d) and current design (e-f). During modeling (a), aesthetic scoring module (b) and aesthetics-driven editing tools (c), make aesthetic enhancement perceptible, measurable, editable, and iterative (d). The user (e) can easily adjust the aesthetic appeal of a 3D object by scaling the table surface with a stylus pen on our UI. (f) shows the screenshot of a designed shape in editing mode..</span></h6><h2><a name="neural-aesthetic-scoring" class="md-header-anchor"></a><strong><span>Neural Aesthetic Scoring</span></strong></h2><p><img src="img\neural_aesthetics_module.png" alt="neural_aesthetics_module" style="zoom:33%;" /></p><h6><a name="fig-3-the-details-of-the-neural-aesthetic-measurement-model-for-our-aesthetic3d" class="md-header-anchor"></a><strong><span>Fig. 3:</span></strong><span> The details of the neural aesthetic measurement model for our </span><em><span>Aesthetic3D</span></em><span>.</span></h6><h2><a name="aesthetics-driven-editing-tools" class="md-header-anchor"></a><strong><span>Aesthetics-driven Editing Tools</span></strong></h2><p>&nbsp;</p> <div style="display:flex; justify-content:center; gap:80px; flex-wrap:wrap;">
+  <img src="img/Media8.gif" width="8%">
+  <img src="img/Media9.gif" width="9%">
+  <img src="img/Media7.gif" width="8%">
+  <img src="img/Media5.gif" width="10%">
+  <img src="img/Media6.gif" width="9%">
+</div><div style="display:flex; justify-content:center; align-items:center; gap:80px; flex-wrap:wrap;">
+  <img src="img/Media4.gif" width="8%">
+  <img src="img/Media3.gif" width="9%">
+  <img src="img/Media2.gif" width="8%">
+  <img src="img/Media1.gif" width="10%">
+  <img src="img/Media10.gif" width="9%">
+</div><p>&nbsp;</p><h6><a name="fig-4-aesthetic3d-support-the-following-operations-a-surface-convexity-and-concavity-adjustment-b-region-thickness-adjustment-c-region-moving-d-e-face-subdivision-or-merge-f--planar-uniform-scaling-g-vertex-dragging-h-line-dragging-i-face-dragging-and-j-part-transplant" class="md-header-anchor"></a><strong><span>Fig 4</span></strong><span>: </span><em><span>Aesthetic3D</span></em><span> support the following operations: (a) surface convexity and concavity adjustment, (b) region thickness adjustment, (c) region moving, (d-e) face subdivision or merge, (f ) planar uniform scaling, (g) vertex dragging, (h) line dragging, (i) face dragging, and (j) part transplant.</span></h6><h2><a name="without-vs-with-our-aesthetic3d" class="md-header-anchor"></a><strong><span>Without </span><em><span>vs</span></em><span>. with our </span><em><span>Aesthetic3D</span></em></strong></h2><p><img src="img/with_without_aesthetic3D.png" alt="segmentation_transfer" style="zoom: 18%;" /></p><h6><a name="fig-5--3d-shape-beautification-wo-vs-w-our-aesthetics-scoring-given-input-shapes-blue-we-display-the-ablated-results-of-both-without-yellow-and-with-green-the-aesthetic-scoring-asides" class="md-header-anchor"></a><strong><span>Fig. 5:</span></strong><span>  3D shape beautification w/o </span><em><span>vs.</span></em><span> w/. our aesthetics scoring. Given input shapes (blue), we display the ablated results of both without (yellow) and with (green) the aesthetic scoring asides.</span></h6><h2><a name="freely-3d-beautification-using-aesthetic3d" class="md-header-anchor"></a><strong><span>Freely 3D beautification using </span><em><span>Aesthetic3D</span></em></strong></h2><p><img src="img\beautification_progress.png" alt="beautification_progress" style="zoom:38%;" /></p><h6><a name="fig-6-four-figures-show-the-results-of-the-participants-explorations" class="md-header-anchor"></a><strong><span>Fig. 6:</span></strong><span> Four figures show the results of the participants’ explorations.</span></h6><h2><a name="applications" class="md-header-anchor"></a><strong><span>Applications</span></strong></h2><h4><a name="--cross-dataset-beautification" class="md-header-anchor"></a><span>- </span><strong><span>Cross-dataset beautification</span></strong></h4><p><img src="img\corss_dataset.png" alt="corss_dataset" style="zoom:10%;" /></p><h6><a name="fig-7-cross-dataset-validation-shapenet→modelnet-each-pair-shows-the-shapes-before-and-after-beautification-with-aesthetic3d" class="md-header-anchor"></a><strong><span>Fig. 7:</span></strong><span> Cross-dataset validation (</span><em><span>ShapeNet</span></em><span>→</span><em><span>ModelNet</span></em><span>). Each pair shows the shapes before and after beautification with </span><em><span>Aesthetic3D</span></em><span>.</span></h6><h4><a name="--cross-category-beautification" class="md-header-anchor"></a><span>- </span><strong><span>Cross-category beautification</span></strong></h4><p><img src="img\cross_category.png" alt="cross_category" style="zoom:13%;" /></p><h6><a name="fig-8--cross-category-validation-each-pair-shows-the-shapes-before-and-after-beautification-with-aesthetic3d" class="md-header-anchor"></a><strong><span>Fig. 8:</span></strong><span>  Cross-category validation. Each pair shows the shapes before and after beautification with </span><em><span>Aesthetic3D</span></em><span>.</span></h6><h4><a name="--aesthetic-tastes-on-artworks" class="md-header-anchor"></a><span>- </span><strong><span>Aesthetic tastes on Artworks</span></strong></h4><p><img src="img\violin.png" alt="violin" style="zoom:19%;" /></p><p>&nbsp;</p><h6><a name="fig-9--aesthetic3d-applied-to-artworks-that-already-conform-to-common-aesthetic-preferences--violin-apple-logo-and-venus-statue-shown-before-and-after-beautification" class="md-header-anchor"></a><strong><span>Fig. 9:</span></strong><span>  </span><em><span>Aesthetic3D</span></em><span> applied to artworks that already conform to common aesthetic preferences:  violin, Apple logo, and Venus statue, shown before and after beautification.</span></h6><h2><a name="citation" class="md-header-anchor"></a><strong><span>Citation</span></strong></h2><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="tex"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="tex"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Coming soon</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 23px;"></div><div class="CodeMirror-gutters" style="display: none; height: 23px;"></div></div></div></pre><p>&nbsp;</p><p><span>                                                                                                        </span><img src="img/SDU.png" alt="SCM_Logo" style="zoom:50%;" /><span>                                              </span><img src="img\HKBU.png" alt="HKBU" style="zoom:70%;" /><span>      </span></p><p><span>                                                                                                            </span><img src="img/hkust-logo.jpg" alt="hkust-logo" style="zoom:20%;" /><span>                              </span><img src="img\LU.png" alt="LU" style="zoom:55%;" /><span>                 </span></p></div>
 </body>
 </html>
