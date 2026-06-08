@@ -1,10 +1,10 @@
 # Aesthetic3D: Incorporating Shape Aesthetic Measures into 3D Modeling Interfaces
 
-![Teaser](fig/teaser_Aesthetic3D.png)
+![Teaser](fig/teaser_aesthetic3D.png)
 
 > [Deng Yu](https://dengyuhk.github.io/), [Jianing Guo](), [Hui Ye](), [Pengjie Ren*](), [Hongbo Fu*](https://sweb.cityu.edu.hk/hongbofu/) [Manfred Lau*](https://www.scm.cityu.edu.hk/people/lau-chung-man-manfred), 
 >
-> [[Paper]](https://arxiv.org/abs/2306.05911) [[Project Page]](https://dengyuhk.github.io/Sketch2Stress/) [[Dataset]](#Dataset) [[Video]](https://www.youtube.com/watch?v=WLfEeeFJbYY)
+> [[Paper]](https://dl.acm.org/doi/10.1145/3804501) [[Project Page]](https://dengyuhk.github.io/Aesthetic3D/) [[Dataset]](#Dataset)
 >
 > Accepted by ACM SIGGRAPH I3D 2026
 
@@ -14,7 +14,7 @@
 
 ## Getting Started
 
-### Dataset
+### Dataset Details
 
 > To be released.
 
