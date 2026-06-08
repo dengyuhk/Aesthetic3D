@@ -1,0 +1,42 @@
+# Aesthetic3D: Incorporating Shape Aesthetic Measures into 3D Modeling Interfaces
+
+![Teaser](fig/teaser_Aesthetic3D.png)
+
+> [Deng Yu](https://dengyuhk.github.io/), [Jianing Guo](), [Hui Ye](), [Pengjie Ren*](), [Hongbo Fu*](https://sweb.cityu.edu.hk/hongbofu/) [Manfred Lau*](https://www.scm.cityu.edu.hk/people/lau-chung-man-manfred), 
+>
+> [[Paper]](https://arxiv.org/abs/2306.05911) [[Project Page]](https://dengyuhk.github.io/Sketch2Stress/) [[Dataset]](#Dataset) [[Video]](https://www.youtube.com/watch?v=WLfEeeFJbYY)
+>
+> Accepted by ACM SIGGRAPH I3D 2026
+
+## Prerequisites
+
+>To be released.
+
+## Getting Started
+
+### Dataset
+
+> To be released.
+
+### Network Training Details
+
+> To be released.
+
+## Acknowledgments
+
+This code is developed based on [ViT](https://github.com/lucidrains/vit-pytorch#simple-vit).
+
+## BibTeX
+
+```tex
+@ARTICLE{yu2026aesthetic3D,
+author = {Yu, Deng and Guo, Jianing and Ye, Hui and Ren, Pengjie and Fu, Hongbo and Lau, Manfred},
+title = {Aesthetic3D: Incorporating Shape Aesthetic Measures into 3D Modeling Interfaces},
+journal = {Proc. ACM Comput. Graph. Interact. Tech.},
+year = {2026},
+issue_date = {May 2026},
+volume = {9},
+number = {1},
+doi = {10.1145/3804501}}
+```
+
