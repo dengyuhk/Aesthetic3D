@@ -2,7 +2,7 @@
 
 ![Teaser](fig/teaser_aesthetic3D.png)
 
-> [Deng Yu](https://dengyuhk.github.io/), [Jianing Guo](), [Hui Ye](), [Pengjie Ren*](), [Hongbo Fu*](https://sweb.cityu.edu.hk/hongbofu/) [Manfred Lau*](https://www.scm.cityu.edu.hk/people/lau-chung-man-manfred), 
+> [Deng Yu](https://dengyuhk.github.io/), [Jianing Guo](), [Hui Ye](), [Pengjie Ren*](), [Hongbo Fu*](https://hongbofu.people.ust.hk/), [Manfred Lau*](https://sites.google.com/site/manfredlau/)
 >
 > [[Paper]](https://dl.acm.org/doi/10.1145/3804501) [[Project Page]](https://dengyuhk.github.io/Aesthetic3D/) [[Dataset]](#Dataset)
 >
