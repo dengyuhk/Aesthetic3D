@@ -48,28 +48,28 @@ The full project structure should look like this:
 
 ```tex
 Aesthetic3D/
-|-- Aesthetic3D_interface.blend  # Blender interface for 3D shape beautification
-|-- test.obj
-|-- requirements.txt
-|-- Aesthetic_data/
-|   |-- 3D_models/               	       # 3D models
-|   |   |-- chair/           		               
-|   |   |-- coffee_mugs/    			 
-|   |   |-- pedestal_tables/ 		 
-|   |   |-- table_lamps/     		
-|   |   |-- pairs           		
-|-- method/
-|   |-- data/
-|	|   |-- pre_rendered_3.pt 		       # multi-view images of shapes
-|   |   |-- IDmaps.pt        			   # mapping between model ids and multi-view images
-|   |   |-- pairs_weighted_filtered.pt     # weighted pairwise aesthetic comparison data.
-|   |-- evaluation/
-|   |-- models/
-|   |-- render/
-|   |-- train/
-|   |-- train_logs/
-|   |-- config.py
-|   `-- script.sh
+    |-- Aesthetic3D_interface.blend         # Blender interface for 3D shape beautification
+    |-- test.obj
+    |-- requirements.txt
+    |-- Aesthetic_data/
+    |   |-- 3D_models/               	    # 3D models
+    |   |   |-- chair/           		               
+    |   |   |-- coffee_mugs/    			 
+    |   |   |-- pedestal_tables/ 		 
+    |   |   |-- table_lamps/     		
+    |   |   |-- pairs           		
+    |-- method/
+    |   |-- data/
+    |	|   |-- pre_rendered_3.pt 		    # multi-view images of shapes
+    |   |   |-- IDmaps.pt        			# mapping between model ids and multi-view images
+    |   |   |-- pairs_weighted_filtered.pt  # weighted pairwise aesthetic comparison data.
+    |   |-- evaluation/
+    |   |-- models/
+    |   |-- render/
+    |   |-- train/
+    |   |-- train_logs/
+    |   |-- config.py
+    |   |-- script.sh
 ```
 
 ### Interactive Interface
