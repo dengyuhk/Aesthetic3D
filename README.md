@@ -46,7 +46,7 @@ You can download our created [dataset](https://drive.google.com/drive/folders/1U
 
 The full project structure should look like this:
 
-```python
+```tex
 Aesthetic3D/
 |-- Aesthetic3D_interface.blend  # Blender interface for 3D shape beautification
 |-- test.obj
