@@ -73,7 +73,7 @@ Aesthetic3D/
 
 ---
 
-Open our interface with Blender:
+Open our interface with **Blender 4.2.1**:
 
 ```bash
 blender Aesthetic3D_interface.blend
