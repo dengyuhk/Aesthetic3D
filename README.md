@@ -2,7 +2,7 @@
 
 
 
-<img src="fig/teaser_aesthetic3D.png" alt="Teaser" style="zoom: 28%;" />
+<img src="fig/teaser_aesthetic3D.png" alt="Teaser" style="zoom: 25%;" />
 
 > [Deng Yu](https://dengyuhk.github.io/), [Jianing Guo](), [Hui Ye](), [Pengjie Ren*](), [Hongbo Fu*](https://hongbofu.people.ust.hk/), [Manfred Lau*](https://sites.google.com/site/manfredlau/)
 >
