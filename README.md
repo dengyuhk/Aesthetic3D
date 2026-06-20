@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ---
 
-#### Dataset Details
+#### Dataset
 You can download our created [dataset](https://drive.google.com/drive/folders/1UVn_-HoJXqiC3gPlTHCLDc0Cfuyjj9Z4?usp=sharing) and put `3D_models`into the `Aesthetic_data` folder and `training_data` into `data` folder for further training and testing. If you download and use the dataset, you agree to the below items:
 
 >- The dataset is available for non-commercial research purposes only.
