@@ -65,7 +65,6 @@ Aesthetic3D/
     |   |-- models/
     |   |-- render/
     |   |-- train/
-    |   |-- train_logs/
     |   |-- config.py
     |   |-- script.sh
 ```
