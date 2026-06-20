@@ -1,7 +1,5 @@
 # Aesthetic3D: Incorporating Shape Aesthetic Measures into 3D Modeling Interfaces
 
----
-
 
 
 <img src="fig/teaser_aesthetic3D.png" alt="Teaser" style="zoom: 28%;" />
